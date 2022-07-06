@@ -59,7 +59,8 @@
                 <h6>Politeknik Negeri Banyuwangi</h6>
                 <h2><em>Teknik</em> Informatika</h2>
                 <div class="main-button">
-                    <div class="scroll-to-section"><a href="#section2">Discover more</a></div>
+                    <div class="scroll-to-section"><a class="text-decoration-none" href="#section2">Discover more</a>
+                    </div>
                 </div>
             </div>
         </div>

@@ -11,11 +11,10 @@
                     <!-- Grid column -->
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                         <h6 class="text-uppercase mb-4 font-weight-bold">
-                            Simonika
+                            TI Poliwangi
                         </h6>
                         <p>
-                            Sistem Informasi Proyek Akhir Mahasiswa Jurusan Teknik
-                            Informatika
+                            Teknik Informatika Politeknik Negeri Banyuwangi
                         </p>
                     </div>
                     <!-- Grid column -->
@@ -39,9 +38,7 @@
                     <!-- Grid column -->
                     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
                         <h6 class="text-uppercase mb-4 font-weight-bold">Kontak</h6>
-                        <p><i class="bi bi-telephone-fill"></i> +62 (0333) 636780</p>
-                        <p><i class="bi bi-envelope-fill"></i> poliwangi@poliwangi.ac.id</p>
-                        <p><i class="bi bi-envelope-open-fill"></i> humas@poliwangi.ac.id</p>
+                        <p class="text-lowercase"><i class="bi bi-envelope-fill"></i> hmti@poliwangi.ac.id</p>
                     </div>
                     <!-- Grid column -->
 
