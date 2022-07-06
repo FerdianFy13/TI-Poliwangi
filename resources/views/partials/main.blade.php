@@ -16,7 +16,7 @@
     {{-- end title --}}
 
     {{-- icon --}}
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('asset/img/logo.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('asset/images/logo.png') }}">
     {{-- end icon --}}
 
     {{-- font --}}
