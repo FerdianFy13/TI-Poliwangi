@@ -33,6 +33,10 @@
     <link rel="stylesheet" href="{{ asset('asset/css/owl.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/lightbox.css') }}">
     {{-- end additional css files --}}
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/feather-icons">
 </head>
 
 <body>

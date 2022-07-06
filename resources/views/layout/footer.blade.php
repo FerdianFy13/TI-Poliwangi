@@ -1,12 +1,13 @@
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <p><i class="fa fa-copyright"></i> Copyright 2022 by HMTI
-
-                    | <a href="https://www.instagram.com/tipoliwangi/" rel="sponsored" target="_parent">TI
-                        Poliwangi</a></p>
-            </div>
+{{-- <div class="container-fluid"> --}}
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-white"
+        style="background: linear-gradient(to right, #141e30, #243b55)">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            Copyright 2022. Teknik Informatika. Politeknik Negeri Banyuwangi. All Rights Reserved
         </div>
-    </div>
-</footer>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    {{--
+</div> --}}
