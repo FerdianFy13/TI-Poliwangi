@@ -1,6 +1,3 @@
-@extends('partials.main')
-
-@section('navbar')
 <!--header-->
 <header class="main-header clearfix" role="header">
     <div class="logo">
@@ -27,4 +24,3 @@
     </nav>
 </header>
 {{-- end header --}}
-@endsection
