@@ -35,7 +35,8 @@
     {{-- end additional css files --}}
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/feather-icons">
 </head>
 
@@ -55,8 +56,8 @@
 
         <div class="video-overlay header-text">
             <div class="caption">
-                <h6>Graduate School of Management</h6>
-                <h2><em>Your</em> Classroom</h2>
+                <h6>Politeknik Negeri Banyuwangi</h6>
+                <h2><em>Teknik</em> Informatika</h2>
                 <div class="main-button">
                     <div class="scroll-to-section"><a href="#section2">Discover more</a></div>
                 </div>
@@ -73,7 +74,7 @@
                     <div class="features-post">
                         <div class="features-content">
                             <div class="content-show">
-                                <h4><i class="fa fa-pencil"></i>All Courses</h4>
+                                <h4><i class="fa fa-graduation-cap"></i>TRPL</h4>
                             </div>
                             <div class="content-hide">
                                 <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a
@@ -92,7 +93,7 @@
                     <div class="features-post second-features">
                         <div class="features-content">
                             <div class="content-show">
-                                <h4><i class="fa fa-graduation-cap"></i>Virtual Class</h4>
+                                <h4><i class="fa fa-graduation-cap"></i>TRPK</h4>
                             </div>
                             <div class="content-hide">
                                 <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a
@@ -111,7 +112,7 @@
                     <div class="features-post third-features">
                         <div class="features-content">
                             <div class="content-show">
-                                <h4><i class="fa fa-book"></i>Real Meeting</h4>
+                                <h4><i class="fa fa-graduation-cap"></i>Real Meeting</h4>
                             </div>
                             <div class="content-hide">
                                 <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a
