@@ -3,34 +3,34 @@
 
 <head>
 
+    {{-- meta tags --}}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    {{-- end meta tags --}}
+
+    {{-- title --}}
+    <title>TI-Poliwangi</title>
+    {{-- end title --}}
+
+    {{-- font --}}
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900"
         rel="stylesheet">
+    {{-- end font --}}
 
-    <title>Grad School HTML5 Template</title>
+    {{-- Bootstrap core CSS --}}
+    <link href="{{ asset('asset/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Additional CSS Files -->
+    {{-- Additional CSS Files --}}
     <link rel="stylesheet" href="{{ asset('asset/css/fontawesome.css') }}">
     <link rel="stylesheet" href="{{ asset('asset/css/templatemo-grad-school.css') }}">
     <link rel="stylesheet" href="{{ asset('asset/css/owl.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/lightbox.css') }}">
-    <!--
-    
-TemplateMo 557 Grad School
-
-https://templatemo.com/tm-557-grad-school
-
--->
+    {{-- end additional css files --}}
 </head>
 
 <body>
-
 
     <!--header-->
     <header class="main-header clearfix" role="header">
@@ -57,6 +57,7 @@ https://templatemo.com/tm-557-grad-school
             </ul>
         </nav>
     </header>
+    {{-- end header --}}
 
     <!-- ***** Main Banner Area Start ***** -->
     <section class="section main-banner" id="top" data-section="section1">
@@ -566,7 +567,9 @@ https://templatemo.com/tm-557-grad-school
     <!-- Bootstrap core JavaScript -->
     <script src="{{ asset('asset/vendor/jquery/jquery.min.js') }}"></script>
     <script src="{{ asset('asset/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    {{-- end bootstrap core JavaScript --}}
 
+    {{-- javascript --}}
     <script src="{{ asset('asset/js/isotope.min.js') }}"></script>
     <script src="{{ asset('asset/js/owl-carousel.js') }}"></script>
     <script src="{{ asset('asset/js/lightbox.js') }}"></script>
@@ -574,57 +577,8 @@ https://templatemo.com/tm-557-grad-school
     <script src="{{ asset('asset/js/video.js') }}"></script>
     <script src="{{ asset('asset/js/slick-slider.js') }}"></script>
     <script src="{{ asset('asset/js/custom.js') }}"></script>
-    <script>
-        //according to loftblog tut
-    $('.nav li:first').addClass('active');
-
-    var showSection = function showSection(section, isAnimate) {
-      var
-        direction = section.replace(/#/, ''),
-        reqSection = $('.section').filter('[data-section="' + direction + '"]'),
-        reqSectionPos = reqSection.offset().top - 0;
-
-      if (isAnimate) {
-        $('body, html').animate({
-          scrollTop: reqSectionPos
-        },
-          800);
-      } else {
-        $('body, html').scrollTop(reqSectionPos);
-      }
-
-    };
-
-    var checkSection = function checkSection() {
-      $('.section').each(function () {
-        var
-          $this = $(this),
-          topEdge = $this.offset().top - 80,
-          bottomEdge = topEdge + $this.height(),
-          wScroll = $(window).scrollTop();
-        if (topEdge < wScroll && bottomEdge > wScroll) {
-          var
-            currentId = $this.data('section'),
-            reqLink = $('a').filter('[href*=\\#' + currentId + ']');
-          reqLink.closest('li').addClass('active').
-            siblings().removeClass('active');
-        }
-      });
-    };
-
-    $('.main-menu, .scroll-to-section').on('click', 'a', function (e) {
-      if ($(e.target).hasClass('external')) {
-        return;
-      }
-      e.preventDefault();
-      $('#menu').removeClass('active');
-      showSection($(this).attr('href'), true);
-    });
-
-    $(window).scroll(function () {
-      checkSection();
-    });
-    </script>
+    <script src="{{ asset('asset/js/app.js') }}"></script>
+    {{-- end javascript --}}
 </body>
 
 </html>
