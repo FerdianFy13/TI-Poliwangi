@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/homes', function () {
     return view('core.home.home');
 });
+
+Route::get('/mm', function () {
+    return view('partials.main');
+});

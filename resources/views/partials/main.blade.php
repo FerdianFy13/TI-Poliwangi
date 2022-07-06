@@ -5,14 +5,19 @@
 
     {{-- meta tags --}}
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Teknik Informatika Politeknik Negeri Banyuwangi">
+    <meta name="author" content="Himpunan Mahasiswa Teknik Informatika">
     {{-- end meta tags --}}
 
     {{-- title --}}
     <title>TI-Poliwangi</title>
     {{-- end title --}}
+
+    {{-- icon --}}
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('asset/img/logo.png') }}">
+    {{-- end icon --}}
 
     {{-- font --}}
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900"
@@ -33,30 +38,9 @@
 <body>
 
     <!--header-->
-    <header class="main-header clearfix" role="header">
-        <div class="logo">
-            <a href="#"><em>TI</em> Poliwangi</a>
-        </div>
-        <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
-        <nav id="menu" class="main-nav" role="navigation">
-            <ul class="main-menu">
-                <li><a href="#section1">Home</a></li>
-                <li class="has-submenu"><a href="#section2">About Us</a>
-                    <ul class="sub-menu">
-                        <li><a href="#section2">Who we are?</a></li>
-                        <li><a href="#section3">What we do?</a></li>
-                        <li><a href="#section3">How it works?</a></li>
-                        <li><a href="https://templatemo.com/about" rel="sponsored" class="external">External URL</a>
-                        </li>
-                    </ul>
-                </li>
-                <li><a href="#section4">Courses</a></li>
-                <!-- <li><a href="#section5">Video</a></li> -->
-                <li><a href="#section6">Contact</a></li>
-                <li><a href="https://templatemo.com" class="external">External</a></li>
-            </ul>
-        </nav>
-    </header>
+    @section('navbar')
+    @include('layout.navbar')
+    @show
     {{-- end header --}}
 
     <!-- ***** Main Banner Area Start ***** -->
@@ -553,18 +537,9 @@
     </section>
 
     {{-- footer --}}
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <p><i class="fa fa-copyright"></i> Copyright 2022 by HMTI
-
-                        | <a href="https://www.instagram.com/tipoliwangi/" rel="sponsored" target="_parent">TI
-                            Poliwangi</a></p>
-                </div>
-            </div>
-        </div>
-    </footer>
+    @section('footer')
+    @include('layout.footer')
+    @show
     {{-- end footer --}}
 
     <!-- Scripts -->
