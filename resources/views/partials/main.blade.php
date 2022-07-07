@@ -12,7 +12,7 @@
     {{-- end meta tags --}}
 
     {{-- title --}}
-    <title>TI-Poliwangi</title>
+    <title>TI Poliwangi</title>
     {{-- end title --}}
 
     {{-- icon --}}
@@ -75,7 +75,13 @@
                     <div class="features-post">
                         <div class="features-content">
                             <div class="content-show">
-                                <h4><i class="fa fa-graduation-cap"></i>TRPL</h4>
+                                <div class="row g-0">
+                                    <div class="col-sm-6 col-md-2"><i class="fa fa-graduation-cap"></i></div>
+                                    <div class="col-sm-6 col-md-10 ">
+                                        <h4>Teknologi Rekayasa Perangkat Lunak</h4>
+                                    </div>
+                                </div>
+                                {{-- <h4 class="text-capitalize"> D4 Teknologi Rekayasa Perangkat Lunak</h4> --}}
                             </div>
                             <div class="content-hide">
                                 <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a
@@ -94,7 +100,13 @@
                     <div class="features-post second-features">
                         <div class="features-content">
                             <div class="content-show">
-                                <h4><i class="fa fa-graduation-cap"></i>TRPK</h4>
+                                <div class="row g-0">
+                                    <div class="col-sm-6 col-md-2"><i class="fa fa-graduation-cap"></i></div>
+                                    <div class="col-sm-6 col-md-10 ">
+                                        <h4>Teknologi Rekayasa Komputer</h4>
+                                    </div>
+                                </div>
+                                {{-- <h4 class="text-capitalize">D4 Teknologi Rekayasa Komputer</h4> --}}
                             </div>
                             <div class="content-hide">
                                 <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a
@@ -113,7 +125,14 @@
                     <div class="features-post third-features">
                         <div class="features-content">
                             <div class="content-show">
-                                <h4><i class="fa fa-graduation-cap"></i>Real Meeting</h4>
+                                <div class="row g-0">
+                                    <div class="col-sm-6 col-md-2"><i class="fa fa-graduation-cap"></i></div>
+                                    <div class="col-sm-6 col-md-9 ">
+                                        <h4>Terapan Bisnis Digital</h4>
+                                    </div>
+                                </div>
+                                {{-- <h4>D4 Terapan Bisnis Digital</h4> --}}
+                                {{-- <h4>Digital</h4> --}}
                             </div>
                             <div class="content-hide">
                                 <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a

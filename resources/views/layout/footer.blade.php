@@ -43,7 +43,7 @@
                     <!-- Grid column -->
 
                     <!-- Grid column -->
-                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
                         <h6 class="text-uppercase mb-4 font-weight-bold">Sosial Media</h6>
 
                         <!-- Facebook -->
@@ -61,6 +61,10 @@
                             href="https://www.youtube.com/channel/UCq769ou-Gy0z5b8Nzgv4kfg" role="button"><i
                                 class="bi bi-youtube"></i></a>
                     </div>
+
+                    <!-- Grid column -->
+                    <hr class="w-100 clearfix d-md-none mt-3" />
+
                 </div>
                 <!--Grid row-->
             </section>
