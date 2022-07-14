@@ -34,14 +34,9 @@
                             {{-- <h4 class="text-capitalize"> D4 Teknologi Rekayasa Perangkat Lunak</h4> --}}
                         </div>
                         <div class="content-hide">
-                            <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a
-                                posuere imperdiet.
-                                Donec maximus elementum ex. Cras convallis ex rhoncus, laoreet libero eu, vehicula
-                                libero.</p>
-                            <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In
-                                mollis eros a
-                                posuere imperdiet.</p>
-                            <div class="scroll-to-section"><a href="#section2">More Info.</a></div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro corrupti dignissimos modi
+                                ab, odit iure exercitationem aspernatur et excepturi saepe.</p>
+                            <div class="scroll-to-section"><a href="#" class="text-decoration-none">Read More</a></div>
                         </div>
                     </div>
                 </div>
@@ -59,14 +54,9 @@
                             {{-- <h4 class="text-capitalize">D4 Teknologi Rekayasa Komputer</h4> --}}
                         </div>
                         <div class="content-hide">
-                            <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a
-                                posuere imperdiet.
-                                Donec maximus elementum ex. Cras convallis ex rhoncus, laoreet libero eu, vehicula
-                                libero.</p>
-                            <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In
-                                mollis eros a
-                                posuere imperdiet.</p>
-                            <div class="scroll-to-section"><a href="#section3">Details</a></div>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A similique in fugiat
+                                repellendus veritatis optio ipsum consequuntur eum placeat blanditiis.</p>
+                            <div class="scroll-to-section"><a href="#" class="text-decoration-none">Read More</a></div>
                         </div>
                     </div>
                 </div>
@@ -85,14 +75,9 @@
                             {{-- <h4>Digital</h4> --}}
                         </div>
                         <div class="content-hide">
-                            <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a
-                                posuere imperdiet.
-                                Donec maximus elementum ex. Cras convallis ex rhoncus, laoreet libero eu, vehicula
-                                libero.</p>
-                            <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In
-                                mollis eros a
-                                posuere imperdiet.</p>
-                            <div class="scroll-to-section"><a href="#section4">Read More</a></div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente repellendus enim, sint
+                                cumque ratione tenetur aut dolorum ex laborum eligendi?</p>
+                            <div class="scroll-to-section"><a href="#" class="text-decoration-none">Read More</a></div>
                         </div>
                     </div>
                 </div>
