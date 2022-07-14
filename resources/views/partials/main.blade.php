@@ -12,7 +12,7 @@
     {{-- end meta tags --}}
 
     {{-- title --}}
-    <title>TI Poliwangi</title>
+    <title>TI Poliwangi || {{ $title }}</title>
     {{-- end title --}}
 
     {{-- icon --}}
