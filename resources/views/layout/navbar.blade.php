@@ -9,7 +9,7 @@
             <li class="has-submenu"><a href="#section1" class="text-decoration-none">Home</a>
                 <ul class="sub-menu">
                     <li><a href="#section2" class="text-decoration-none">About</a></li>
-                    <li><a href="#section3" class="text-decoration-none">Highlight</a></li>
+                    <li><a href="#section5" class="text-decoration-none">Highlight</a></li>
                     <li><a href="#section6" class="text-decoration-none">Contact</a></li>
                 </ul>
             </li>
