@@ -5,14 +5,19 @@
 
     {{-- meta tags --}}
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Teknik Informatika Politeknik Negeri Banyuwangi">
+    <meta name="author" content="Himpunan Mahasiswa Teknik Informatika">
     {{-- end meta tags --}}
 
     {{-- title --}}
-    <title>TI-Poliwangi</title>
+    <title>TI Poliwangi</title>
     {{-- end title --}}
+
+    {{-- icon --}}
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('asset/images/logo.png') }}">
+    {{-- end icon --}}
 
     {{-- font --}}
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900"
@@ -28,35 +33,19 @@
     <link rel="stylesheet" href="{{ asset('asset/css/owl.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/lightbox.css') }}">
     {{-- end additional css files --}}
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/feather-icons">
 </head>
 
 <body>
 
     <!--header-->
-    <header class="main-header clearfix" role="header">
-        <div class="logo">
-            <a href="#"><em>TI</em> Poliwangi</a>
-        </div>
-        <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
-        <nav id="menu" class="main-nav" role="navigation">
-            <ul class="main-menu">
-                <li><a href="#section1">Home</a></li>
-                <li class="has-submenu"><a href="#section2">About Us</a>
-                    <ul class="sub-menu">
-                        <li><a href="#section2">Who we are?</a></li>
-                        <li><a href="#section3">What we do?</a></li>
-                        <li><a href="#section3">How it works?</a></li>
-                        <li><a href="https://templatemo.com/about" rel="sponsored" class="external">External URL</a>
-                        </li>
-                    </ul>
-                </li>
-                <li><a href="#section4">Courses</a></li>
-                <!-- <li><a href="#section5">Video</a></li> -->
-                <li><a href="#section6">Contact</a></li>
-                <li><a href="https://templatemo.com" class="external">External</a></li>
-            </ul>
-        </nav>
-    </header>
+    @section('navbar')
+    @include('layout.navbar')
+    @show
     {{-- end header --}}
 
     <!-- ***** Main Banner Area Start ***** -->
@@ -67,10 +56,11 @@
 
         <div class="video-overlay header-text">
             <div class="caption">
-                <h6>Graduate School of Management</h6>
-                <h2><em>Your</em> Classroom</h2>
+                <h6>Politeknik Negeri Banyuwangi</h6>
+                <h2><em>Teknik</em> Informatika</h2>
                 <div class="main-button">
-                    <div class="scroll-to-section"><a href="#section2">Discover more</a></div>
+                    <div class="scroll-to-section"><a class="text-decoration-none" href="#section2">Discover more</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -85,7 +75,13 @@
                     <div class="features-post">
                         <div class="features-content">
                             <div class="content-show">
-                                <h4><i class="fa fa-pencil"></i>All Courses</h4>
+                                <div class="row g-0">
+                                    <div class="col-sm-6 col-md-2"><i class="fa fa-graduation-cap"></i></div>
+                                    <div class="col-sm-6 col-md-10 ">
+                                        <h4>Teknologi Rekayasa Perangkat Lunak</h4>
+                                    </div>
+                                </div>
+                                {{-- <h4 class="text-capitalize"> D4 Teknologi Rekayasa Perangkat Lunak</h4> --}}
                             </div>
                             <div class="content-hide">
                                 <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a
@@ -104,7 +100,13 @@
                     <div class="features-post second-features">
                         <div class="features-content">
                             <div class="content-show">
-                                <h4><i class="fa fa-graduation-cap"></i>Virtual Class</h4>
+                                <div class="row g-0">
+                                    <div class="col-sm-6 col-md-2"><i class="fa fa-graduation-cap"></i></div>
+                                    <div class="col-sm-6 col-md-10 ">
+                                        <h4>Teknologi Rekayasa Komputer</h4>
+                                    </div>
+                                </div>
+                                {{-- <h4 class="text-capitalize">D4 Teknologi Rekayasa Komputer</h4> --}}
                             </div>
                             <div class="content-hide">
                                 <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a
@@ -123,7 +125,14 @@
                     <div class="features-post third-features">
                         <div class="features-content">
                             <div class="content-show">
-                                <h4><i class="fa fa-book"></i>Real Meeting</h4>
+                                <div class="row g-0">
+                                    <div class="col-sm-6 col-md-2"><i class="fa fa-graduation-cap"></i></div>
+                                    <div class="col-sm-6 col-md-9 ">
+                                        <h4>Terapan Bisnis Digital</h4>
+                                    </div>
+                                </div>
+                                {{-- <h4>D4 Terapan Bisnis Digital</h4> --}}
+                                {{-- <h4>Digital</h4> --}}
                             </div>
                             <div class="content-hide">
                                 <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a
@@ -147,15 +156,15 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-heading">
-                        <h2>Why choose Grad School?</h2>
+                        <h2>About</h2>
                     </div>
                 </div>
                 <div class="col-md-12">
                     <div id='tabs'>
                         <ul>
-                            <li><a href='#tabs-1'>Best Education</a></li>
-                            <li><a href='#tabs-2'>Top Management</a></li>
-                            <li><a href='#tabs-3'>Quality Meeting</a></li>
+                            <li><a href='#tabs-1'>Pengumuman</a></li>
+                            <li><a href='#tabs-2'>Berita Jurusan</a></li>
+                            <li><a href='#tabs-3'>Kegiatan HMTI</a></li>
                         </ul>
                         <section class='tabs-content'>
                             <article id='tabs-1'>
@@ -164,7 +173,7 @@
                                         <img src="assets/images/choose-us-image-01.png" alt="">
                                     </div>
                                     <div class="col-md-6">
-                                        <h4>Best Education</h4>
+                                        <h4>Pengumuman Akademik</h4>
                                         <p>Grad School is free educational HTML template with Bootstrap 4.5.2 CSS
                                             layout. Feel free to use
                                             it for educational or commercial purposes. You may want to make <a
@@ -180,7 +189,7 @@
                                         <img src="assets/images/choose-us-image-02.png" alt="">
                                     </div>
                                     <div class="col-md-6">
-                                        <h4>Top Level</h4>
+                                        <h4>Berita Agenda Jurusan</h4>
                                         <p>You can modify this HTML layout by editing contents and adding more pages as
                                             you needed. Since
                                             this template has options to add dropdown menus, you can put many HTML
@@ -197,7 +206,7 @@
                                         <img src="assets/images/choose-us-image-03.png" alt="">
                                     </div>
                                     <div class="col-md-6">
-                                        <h4>Quality Meeting</h4>
+                                        <h4>Publikasi Kegiatan HMTI</h4>
                                         <p>You are NOT allowed to redistribute this template ZIP file on any template
                                             collection website.
                                             However, you can use this template to convert into a specific theme for any
@@ -553,18 +562,9 @@
     </section>
 
     {{-- footer --}}
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <p><i class="fa fa-copyright"></i> Copyright 2022 by HMTI
-
-                        | <a href="https://www.instagram.com/tipoliwangi/" rel="sponsored" target="_parent">TI
-                            Poliwangi</a></p>
-                </div>
-            </div>
-        </div>
-    </footer>
+    @section('footer')
+    @include('layout.footer')
+    @show
     {{-- end footer --}}
 
     <!-- Scripts -->

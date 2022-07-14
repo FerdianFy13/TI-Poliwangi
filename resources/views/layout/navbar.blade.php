@@ -6,22 +6,23 @@
     <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
     <nav id="menu" class="main-nav" role="navigation">
         <ul class="main-menu">
-            <li><a href="#section1" class="text-decoration-none">Home</a></li>
-            <li class="has-submenu"><a href="#section2" class="text-decoration-none">About Us</a>
+            <li class="has-submenu"><a href="#section1" class="text-decoration-none">Home</a>
                 <ul class="sub-menu">
-                    <li><a href="#section2" class="text-decoration-none">Who we are?</a></li>
-                    <li><a href="#section3" class="text-decoration-none">What we do?</a></li>
-                    <li><a href="#section3" class="text-decoration-none">How it works?</a></li>
-                    <li><a href="https://templatemo.com/about" rel="sponsored" class="external"
-                            class="text-decoration-none">External URL</a>
-                    </li>
+                    <li><a href="#section2" class="text-decoration-none">About</a></li>
+                    <li><a href="#section3" class="text-decoration-none">Highlight</a></li>
+                    <li><a href="#section6" class="text-decoration-none">Contact</a></li>
                 </ul>
             </li>
-            <li><a href="#section4" class="text-decoration-none">Courses</a></li>
-            <li><a href="#section5" class="text-decoration-none">Video</a></li>
-            <li><a href="#section6" class="text-decoration-none">Contact</a></li>
-            <li><a href="https://templatemo.com" class="external text-decoration-none"
-                    class="text-decoration-none">External</a></li>
+            <li class="has-submenu"><a href="#section2" class="text-decoration-none">Akademik</a>
+                <ul class="sub-menu">
+                    <li><a href="#section2" class="text-decoration-none">Dosen</a></li>
+                    <li><a href="#section2" class="text-decoration-none">Fasilitas</a></li>
+                    <li><a href="https://sit.poliwangi.ac.id/" class="text-decoration-none">Presensi</a></li>
+                    <li><a href="https://simonline.poliwangi.ac.id/" class="text-decoration-none">Nilai</a></li>
+                </ul>
+            </li>
+            <li><a href="#section4" class="text-decoration-none">HMTI</a></li>
+            <li><a href="#section5" class="text-decoration-none">Penelitian</a></li>
         </ul>
     </nav>
 </header>
