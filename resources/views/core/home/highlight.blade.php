@@ -5,7 +5,7 @@
                 <div class="left-content">
                     <span>Highlight Activities TI Poliwangi</span>
                     <h4>Watch the video to learn more <em>about TI Poliwangi</em></h4>
-                    <p class="text-align-justift" style="text-align: justif;">Lorem ipsum dolor sit amet consectetur
+                    <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur
                         adipisicing elit. Debitis
                         deserunt itaque beatae et facere
                         perferendis quo obcaecati cumque numquam, blanditiis in. Reprehenderit ullam alias vitae,
@@ -15,9 +15,10 @@
                         interdum quam felis
                         non ante.
                     </p>
-                    <div class="main-button"><a rel="nofollow" href="https://fb.com/templatemo"
-                            target="_parent">External
-                            URL</a></div>
+                    <div class="main-button"><a rel="nofollow"
+                            href="https://www.youtube.com/channel/UCq769ou-Gy0z5b8Nzgv4kfg" class="text-decoration-none"
+                            target="_parent">Detail
+                        </a></div>
                 </div>
             </div>
             <div class="col-md-6">

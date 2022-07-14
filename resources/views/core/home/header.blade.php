@@ -34,7 +34,8 @@
                             {{-- <h4 class="text-capitalize"> D4 Teknologi Rekayasa Perangkat Lunak</h4> --}}
                         </div>
                         <div class="content-hide">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro corrupti dignissimos modi
+                            <p style="text-align: justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Porro corrupti dignissimos modi
                                 ab, odit iure exercitationem aspernatur et excepturi saepe.</p>
                             <div class="scroll-to-section"><a href="#" class="text-decoration-none">Read More</a></div>
                         </div>
@@ -54,7 +55,8 @@
                             {{-- <h4 class="text-capitalize">D4 Teknologi Rekayasa Komputer</h4> --}}
                         </div>
                         <div class="content-hide">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A similique in fugiat
+                            <p style="text-align: justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. A
+                                similique in fugiat
                                 repellendus veritatis optio ipsum consequuntur eum placeat blanditiis.</p>
                             <div class="scroll-to-section"><a href="#" class="text-decoration-none">Read More</a></div>
                         </div>
@@ -75,7 +77,8 @@
                             {{-- <h4>Digital</h4> --}}
                         </div>
                         <div class="content-hide">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente repellendus enim, sint
+                            <p style="text-align: justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Sapiente repellendus enim, sint
                                 cumque ratione tenetur aut dolorum ex laborum eligendi?</p>
                             <div class="scroll-to-section"><a href="#" class="text-decoration-none">Read More</a></div>
                         </div>

@@ -21,12 +21,13 @@
                                 </div>
                                 <div class="col-md-6">
                                     <h4>Pengumuman Akademik</h4>
-                                    <p>Grad School is free educational HTML template with Bootstrap 4.5.2 CSS
-                                        layout. Feel free to use
-                                        it for educational or commercial purposes. You may want to make <a
-                                            href="https://paypal.me/templatemo" target="_parent" rel="sponsored">a
-                                            little donation</a> to
-                                        TemplateMo. Please tell your friends about us. Thank you.</p>
+                                    <p style="text-align: justify">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Explicabo maxime
+                                        veritatis ad in quaerat accusamus facilis non aliquid incidunt dolores magni,
+                                        laborum dolorum quasi ullam iure, reiciendis autem, accusantium dignissimos?
+                                        Corporis nihil ducimus sequi ipsum nesciunt! Voluptatem nihil aut sunt,
+                                        molestiae accusamus suscipit assumenda! Inventore aspernatur nam alias quis
+                                        voluptatem.</p>
                                 </div>
                             </div>
                         </article>
@@ -37,13 +38,12 @@
                                 </div>
                                 <div class="col-md-6">
                                     <h4>Berita Agenda Jurusan</h4>
-                                    <p>You can modify this HTML layout by editing contents and adding more pages as
-                                        you needed. Since
-                                        this template has options to add dropdown menus, you can put many HTML
-                                        pages.</p>
-                                    <p>Suspendisse tincidunt, magna ut finibus rutrum, libero dolor euismod odio,
-                                        nec interdum quam
-                                        felis non ante.</p>
+                                    <p style="text-align: justify">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Non maxime quod
+                                        inventore placeat, labore hic culpa veritatis laudantium voluptate quia dolorem,
+                                        quae quas omnis impedit dicta sint eius accusantium, illum id temporibus
+                                        provident. Hic, tempora repudiandae iure veritatis eos enim, reiciendis minus
+                                        sunt ullam possimus repellendus porro quia ratione architecto!</p>
                                 </div>
                             </div>
                         </article>
@@ -54,13 +54,13 @@
                                 </div>
                                 <div class="col-md-6">
                                     <h4>Publikasi Kegiatan HMTI</h4>
-                                    <p>You are NOT allowed to redistribute this template ZIP file on any template
-                                        collection website.
-                                        However, you can use this template to convert into a specific theme for any
-                                        kind of CMS platform
-                                        such as WordPress. For more information, you shall <a rel="nofollow"
-                                            href="https://templatemo.com/contact" target="_parent">contact
-                                            TemplateMo</a> now.</p>
+                                    <p style="text-align: justify">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Totam, id voluptatibus.
+                                        Accusantium optio corporis obcaecati magni fuga neque labore, id nulla dicta
+                                        similique ea cupiditate quas praesentium molestias consectetur repudiandae
+                                        nesciunt omnis excepturi ipsum expedita recusandae dolorum? Neque cum ipsum
+                                        necessitatibus suscipit dolor eligendi harum magnam vitae vero, aliquid
+                                        blanditiis.</p>
                                 </div>
                             </div>
                         </article>

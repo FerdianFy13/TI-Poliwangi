@@ -13,16 +13,16 @@
                     <li><a href="#section6" class="text-decoration-none">Contact</a></li>
                 </ul>
             </li>
-            <li class="has-submenu"><a href="#section2" class="text-decoration-none">Akademik</a>
+            <li class="has-submenu"><a href="" class="text-decoration-none">Akademik</a>
                 <ul class="sub-menu">
-                    <li><a href="#section2" class="text-decoration-none">Dosen</a></li>
-                    <li><a href="#section2" class="text-decoration-none">Fasilitas</a></li>
+                    <li><a href="#" class="text-decoration-none">Dosen</a></li>
+                    <li><a href="#" class="text-decoration-none">Fasilitas</a></li>
                     <li><a href="https://sit.poliwangi.ac.id/" class="text-decoration-none">Presensi</a></li>
                     <li><a href="https://simonline.poliwangi.ac.id/" class="text-decoration-none">Nilai</a></li>
                 </ul>
             </li>
-            <li><a href="#section4" class="text-decoration-none">HMTI</a></li>
-            <li><a href="#section5" class="text-decoration-none">Penelitian</a></li>
+            <li><a href="#" class="text-decoration-none">HMTI</a></li>
+            <li><a href="#" class="text-decoration-none">Penelitian</a></li>
         </ul>
     </nav>
 </header>
